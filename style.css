@@ -1,11 +1,9 @@
-
 /* BANNER */
 
 .img-banner {
   border-bottom: 10px solid #000000;
   margin-bottom: 20px;
 }
-
 
 /* SEÇÃO DOS CARDS */
 
@@ -39,44 +37,46 @@
 /* SEÇÃO SOBRE NOS */
 
 .img-sobre-nos {
-    border-radius: 48px;
-    box-shadow: rgba(17, 17, 26, 0.4) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;}
+  border-radius: 48px;
+  box-shadow: rgba(17, 17, 26, 0.4) 0px 16px 56px,
+    rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
 
-.texto-sobre-nos {    
-    line-height: 8px; 
+.texto-sobre-nos {
+  line-height: 8px;
 }
 .text-sobre-nos {
-    font-size: 1.7rem;
-    font-weight: bold;
-    color:#ff0000;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #ff0000;
 }
 
 .sobre-nos-pint-bem {
-    font-weight: bold;
-    font-size: 3.2rem;
+  font-weight: bold;
+  font-size: 3.2rem;
 }
 
 .descricao-sobre-nos {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 /* Estilo para o botão "Saiba Mais" */
 .btn-red {
-    border-radius: 20px; /* Ajuste o valor conforme desejado para tornar o botão mais ou menos arredondado */
-    background-color: transparent; /* Fundo sem cor */
-    border: 2px solid #FF0000; /* Bordas vermelhas */
-    color: #FF0000; /* Texto vermelho */
-    padding: 8px 45px; /* Ajuste o preenchimento conforme necessário */
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    font-weight: bold;
-    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 2px solid #ff0000;
+  color: #ff0000;
+  padding: 8px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
 }
 
 .btn-red:hover {
-    background-color: #FF0000; 
-    color: #FFFFFF; 
-    transform: scale(1.1); 
+  background-color: #ff0000;
+  color: #ffffff;
+  transform: scale(1.1);
 }
