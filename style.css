@@ -1,0 +1,20 @@
+
+.img-banner {
+    border-bottom: 10px solid black;
+    margin-bottom: 20px;
+}
+.div-card {
+    max-width: 60px; 
+    margin: 12px auto;
+}
+
+/* Classe para ajustar o tamanho da imagem dentro da div dos Cards */
+.img-card {
+    max-width: 100%;
+    height: auto;
+}
+
+.texto-destaque-card {
+    color: red;
+}
+
