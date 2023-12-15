@@ -1,20 +1,31 @@
-
 .img-banner {
-    border-bottom: 10px solid black;
-    margin-bottom: 20px;
+  border-bottom: 10px solid #000000;
+  margin-bottom: 20px;
 }
+
 .div-card {
-    max-width: 60px; 
-    margin: 12px auto;
+  max-width: 60px;
+  margin: 12px auto;
 }
 
 /* Classe para ajustar o tamanho da imagem dentro da div dos Cards */
 .img-card {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .texto-destaque-card {
-    color: red;
+  color: #ff0000;
 }
 
+.card-hover {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
+    border-color 0.3s ease-in-out;
+}
+
+/* Estilo ao passar o mouse sobre o card */
+.card-hover:hover {
+  transform: scale(1.05); /* Aumenta levemente o tamanho */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-color: #ff0000;
+}
