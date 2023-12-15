@@ -1,3 +1,7 @@
+body {
+  margin: 2px;
+}
+
 /* BANNER */
 
 .img-banner {
@@ -79,4 +83,45 @@
   background-color: #ff0000;
   color: #ffffff;
   transform: scale(1.1);
+}
+
+/* SEÇÃO BANNER WHATSAPP */
+
+.img-banner-whastapp {
+  border-radius: 26px;
+}
+
+/* SEÇÃO CONTRATE UM PROFISSIONAL  */
+
+.img-banner-profissional {
+  border-bottom: 10px solid #ff0000;
+  margin-bottom: 20px;
+}
+
+.text-container {
+  max-width:750px; 
+  padding: 40px 10px; 
+}
+
+.img-container {
+  overflow: hidden; /* Impede o scroll horizontal */
+}
+
+.titulo-banner-profissional {
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+
+.titulo-banner-descricao {
+    color: #ff0000;
+    font-size: .6rem;
+    font-weight: bold;
+}
+
+.descricao-pint-bem {
+    line-height: 1px;
+    font-size: .6rem;
+    
+
 }
