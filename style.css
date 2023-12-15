@@ -1,6 +1,8 @@
 body {
-  margin: 2px;
-}
+    margin: 2px;
+    overflow-x: hidden;
+
+  }
 
 /* BANNER */
 
@@ -95,7 +97,6 @@ body {
 
 .img-banner-profissional {
   border-bottom: 10px solid #ff0000;
-  margin-bottom: 20px;
 }
 
 .text-container {
@@ -103,9 +104,7 @@ body {
   padding: 40px 10px; 
 }
 
-.img-container {
-  overflow: hidden; /* Impede o scroll horizontal */
-}
+
 
 .titulo-banner-profissional {
     color: #ff0000;
@@ -122,6 +121,46 @@ body {
 .descricao-pint-bem {
     line-height: 1px;
     font-size: .6rem;
-    
+   
 
+}
+
+/* SEÇÃO NOSSOS CLIENTES */
+
+.titulo-nossos-clientes {
+    color: #ff0000;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 30%;
+    border-bottom: 1px solid #ff0000;
+    font-family: Helvetica, sans-serif; 
+}
+
+/* FOOTER */
+
+footer {
+    padding: 3rem 5rem;
+    
+}
+
+.borda-superior-footer {
+    border-top: 10px solid #ff0000;
+    border-bottom: 20px solid #ff0000;
+    margin-top: 10px;
+
+}
+
+.borda-direita-footer {
+    border-right: 3px solid #ff0000;
+}
+
+/* Estilos CSS para os links do Footer */
+.link-footer {
+    color: #ffffff; /* Cor do texto dos links */
+    text-decoration: none; /* Remover sublinhado padrão dos links */
+    transition: color 0.3s ease; /* Efeito de transição na cor ao passar o mouse */
+}
+
+.link-footer:hover {
+    color: #ff9900; /* Cor do texto ao passar o mouse */
 }
