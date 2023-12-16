@@ -32,10 +32,56 @@
   <body>
     <!-- Banner principal -->
     <header>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/logo.png" alt="Logo da Pint Bem">
+                </a>
+        
+                <!-- Botão de alternância para telas menores -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <!-- Itens da barra de navegação -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio">Início</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicos">Serviços</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre nós</a>
+                        </li>                   
+                        <li class="nav-item">
+                            <a class="nav-link" href="#clientes">Clientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                    <!-- Ícone do WhatsApp e número de telefone -->
+                    <div class="d-flex align-items-center">
+                        <i class="fab fa-whatsapp whatsapp-icon"></i>
+                        <span>(12) 3456-7890</span>
+                    </div>
+                    <!-- Botão "Fale conosco" -->
+                    <button class="btn btn-primary ms-3 btn-fale-conosco">Fale conosco</button>
+                </div>
+            </div>
+        </nav>
+
+
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 p-0">
-            <figure>
+            <figure id="inicio">
               <img
                 src="./assets/banner.jpg"
                 alt="Banner comercial da Pint Bem, a imagem mostra um homem utilizando equipamentos para pintar a fachada de um prédio."
@@ -52,7 +98,7 @@
       <div class="container mt-5">
         <div class="row">
           <!-- Card 1 -->
-          <article class="col-md-4 mb-4">
+          <article class="col-md-4 mb-4" id="servicos">
             <div class="card text-center card-hover">
               <!-- Adiciona a classe card-hover -->
               <div class="div-card">
@@ -133,7 +179,7 @@
       </div>
 
       <!-- Seção "Sobre Nós" -->
-      <section class="container mt-5">
+      <section class="container mt-5" id="sobre">
         <div class="row">
           <div class="col-md-6 mb-4">
             <figure>
@@ -215,7 +261,7 @@
 
       <!-- SEÇÃO NOSSOS CLIENTES -->
 
-<section class="container mt-4 text-center">
+<section class="container mt-4 text-center" id="clientes">
     <div class="row" >
         <div>
             <h5 class="titulo-nossos-clientes mt-0 mb-2">Nossos Clientes</h5>
@@ -238,7 +284,7 @@
     </main>
 
 <!-- Footer -->
-<footer class="container-fluid mt-4 bg-dark text-light borda-superior-footer">
+<footer class="container-fluid mt-4 bg-dark text-light borda-superior-footer" id="contato">
     <div class="row">
         <!-- Seção 1: Logo e Descrição -->
         <div class="col-md-4 mb-4 text-center p-4 borda-direita-footer ">
@@ -250,10 +296,10 @@
 <div class="col-md-4 mb-4 text-left p-4 borda-direita-footer text-light">
     <h5 class="mb-3">Navegação</h5>
     <ul class="list-unstyled">
-        <li><a href="#" class="link-footer">- Página Inicial</a></li>
-        <li><a href="#" class="link-footer">- Sobre nós</a></li>
-        <li><a href="#" class="link-footer">- Serviços</a></li>
-        <li><a href="#" class="link-footer">- Contato</a></li>
+        <li><a href="#inicio" class="link-footer">- Página Inicial</a></li>
+        <li><a href="#sobre" class="link-footer">- Sobre nós</a></li>
+        <li><a href="#servicos" class="link-footer">- Serviços</a></li>
+        <li><a href="#contato" class="link-footer">- Contato</a></li>
     </ul>
 </div>
 

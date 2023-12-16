@@ -4,6 +4,56 @@ body {
 
   }
 
+/* NAVEBAR */
+
+/* NAVEBAR */
+.navbar {
+    background-color: #ffffff;
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+.navbar-nav .nav-link {
+    color: #000000;
+    transition: color 0.4s ease-in-out;
+    font-size: 1.2rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FF0000; /* Mudar a cor para vermelho no hover */
+}
+
+.navbar-toggler-icon {
+    background-color: #e6e4e4;
+}
+
+.whatsapp-icon {
+    font-size: 20px;
+    margin-right: 5px;
+    color: #25D366;
+}
+
+/* Botão "Fale conosco" */
+.btn-fale-conosco {
+    background-color: #FF0000 !important; /* Adicionei !important para garantir prioridade */
+    color: #ffffff !important;
+    transition: background-color 0.4s ease-in-out, color 0.3s ease-in-out;
+    font-size: 1.2rem;
+}
+
+.btn-fale-conosco:hover {
+    background-color: #ffffff !important;
+    color: #FF0000 !important;
+}
+
+
+
+
+
 /* BANNER */
 
 .img-banner {
