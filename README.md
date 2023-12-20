@@ -1,7 +1,6 @@
 
 # SunsetWeb Marketing Digital - Projeto Pint Bem
 
-Uma breve descrição sobre o que esse projeto faz e para quem ele é
 
 Este é o repositório do projeto Pint Bem, um teste da Agência Sunset de São José do Rio Preto. O Pint Bem é uma empresa que oferece serviços de pinturas especializadas.
 
